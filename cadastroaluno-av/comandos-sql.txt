@@ -1,0 +1,16 @@
+CREATE DATABASE cadastroav1;
+
+CREATE TABLE usuarios(
+	nome varchar(100) not null,
+	email varchar(100) not null,
+	senha varchar(255) not null
+);
+
+CREATE TABLE alunos(
+	id int AUTO-INCREMENT PRIMARY KEY,
+	nome varchar(100) not null,
+	email varchar(100) not null,
+	idade int not null,
+	contato int not null,
+	endereco varchar(100)
+);

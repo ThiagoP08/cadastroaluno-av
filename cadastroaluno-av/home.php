@@ -81,7 +81,7 @@
     </div>    
 
 
-    <a href="sair.php">Sair</a>
+    <a href="sair.php" class="btn btn-danger" style="margin-left: 7.5rem;">Sair</a>
 </body>
 </html>
 
